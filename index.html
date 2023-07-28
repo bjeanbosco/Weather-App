@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <script src="https://kit.fontawesome.com/319b23d1fe.js" crossorigin="anonymous"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+            <form onclick="return false;setData() ">
+                <input type="text" placeholder="Search Location..." id="Name">
+                <button id="btn">Search</button>
+            </form>   
+           
+        </nav>
+<main>
+    <div class="container">
+        <div class="card">
+            <div class="item1">
+                <div class="locate">
+                    <div id="locate"></div>
+                    <div id="time"></div>
+                </div>
+                <div class="desc">
+                    <div class="icon"><span><i class="fas fa-cloud-sun" id="icon"></i></span> </div>
+                   <div id="desc"></div>
+                </div>
+            </div>
+            <div class="item2">
+                <div id="temp"></div>
+                <div class="other">
+                    <div id="humid"></div>
+                    <div id="wind"></div>
+                </div>
+            </div>
+            <div class="item3">
+                <div>
+                    <div class="measure"><span><i class="fas fa-temperature-high"></i></span> </div>
+                    <div id="like"></div>
+                </div>
+                    <div class="temperature">
+                        <div id="min"></div>
+                        <div id="max"></div>
+                    </div>
+                
+            </div>
+        </div>
+    </div>
+</main>
+    <script src="weather.js"></script>
+</body>
+</html>
