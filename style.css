@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+body{
+    background-color: rgb(6, 78, 78);
+    box-shadow: #E5E7EB;
+    background-image: url(./Img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.logo{
+    color: #E5E7EB;
+    margin-left: 20px;
+}
+nav{
+    height: 80px;
+    line-height: 80px;
+    background-color:  #1F2937;
+    display: flex;
+    justify-content: space-evenly;
+    flex: 1;
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+form{
+    display: flex;
+    padding-top: 20px;
+    margin-right: 20px;
+    margin-left: 10px;
+    justify-content: center;
+    flex: 1;
+}
+input{
+    padding: 0 10px;
+    border-color: 3px solid blue;
+    height: 40px;
+
+}
+button{
+    padding: 2px 7px;
+    background-color: rgb(173, 72, 35);
+    border: none;
+    color: #E5E7EB;
+    border-radius: 0 7px 7px 0;
+    cursor: pointer;
+    height: 40px;
+}
+.container{
+    margin: 30px;
+    min-height: 300px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 40px;
+}
+.item1{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    padding: 10px;
+}
+.item1 div,.item2 div,.item3 div{
+    padding: 5px 0;
+}
+.item2{ 
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(60, 67, 70);
+    padding: 10px;
+}
+.item3{
+    background-color:rgb(14, 170, 92);
+    padding: 10px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+.other{
+    background-color: rgb(99, 116, 5);
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: 60%;
+}
+.other div{
+    padding-left: 20px;
+}
+
+
+.card{
+    width: 450px;
+    background-color: rgb(9, 9, 97);
+    border: 5px solid black;
+}
+#locate{
+    color: hsl(223, 54%, 97%);
+    text-transform: capitalize;
+    font-size: 22px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#desc{
+    color: #E5E7EB;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+#temp{
+font-size: 33px;
+color: aliceblue;
+}
+.icon{ 
+font-size: 28px;
+color: #e8f3fc;
+}
+.other{
+    color: #f3f6fa;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+.temperature{
+    color: #f3f6fa;
+    font-size: 17px;
+    font-family: sans-serif;
+    opacity: 0.8;
+    width: 60%;
+    height: 80%;
+    background-color: #8d687f;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.measure{
+    color: #f0eaea;
+    font-size: 40px;
+}
+#like{
+    color: aliceblue;
+    font-size: 18px;
+}
+#time{
+    color: #E5E7EB;
+    font-size: 19px;
+}
+h1{
+    line-height: -80px;
+}
